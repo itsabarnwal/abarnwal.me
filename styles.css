@@ -1,0 +1,97 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+
+.navbar{
+  background-color: #252120;
+  overflow:hidden; /*so nothing looks out of place*/
+  font-family: "Trade Gothic", Arial, Courier;
+}
+
+.navbar a{
+  color:#D6D8DA;
+  float:left;
+  text-align: center;/*so the buttons border each other and look nice*/
+  padding: 1.5% 1.5%;
+  font-size: 18px;
+  text-decoration: none; /*no underline*/
+}
+
+.navbar a:hover{
+  color:#B4846D;
+}
+
+.navbar a.active{
+  background-color:#252120;
+  color:#B4846D;
+}
+
+.header{
+  font-size: 80px;
+  color:red;
+}
+
+html{
+  height:100%;
+}
+
+.column{ /*allows us to divide page into two columns*/
+  float:left;
+  height:100%;
+}
+
+.left{
+  width: 67%;
+  height:100%;
+}
+
+.right{
+  width: 33%;
+  max-height:100%;
+}
+
+
+.inner{ /*allows for padding and border*/
+  height:100%;
+  padding: 20px;
+  padding-left: 20px;
+}
+
+h1{
+  font-family: "Clarendon", Georgia, Serif;
+  text-align:center;
+  width:100%;
+  height:100%;
+  color:#D6D8DA;
+  font-size:70px;
+  font-weight:bolder;
+}
+
+p {
+  font-family: "Trade Gothic", Arial, Courier;
+  line-height:1.6;
+  color: #252120;
+  font: arial;
+  font-size: 16px;
+}
+
+img{
+  width:100%;
+  height:100%;
+
+  border-right: solid;
+  border-right-color:black;
+  /*so there is no overflow outside of the column*/
+}
+
+.footer{
+
+}
+
+
+  /*  you can also do multiple of one type here, called type selectors
+  *   class selectors are .class in CSS and <p class="class"></p> in html
+  *   ID selectors are class but more specific
+  */
